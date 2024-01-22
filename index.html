@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images\Website Logo.jpg" type="image/x-icon">
+    <title>Electrozee</title>
+    <link rel="stylesheet" href="style css\style.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!---Header-->
+    <header>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a style="text-decoration: underline;" href="index.html"> Home </a></li>
+                    <li><a href="aboutus.html"> About Us </a></li>
+                    <li><a href="contactus.html"> Contact Us </a></li>
+                    <li><a href="disclaimer.html"> Disclaimer </a></li>
+                    <li><a href="faq.html"> FAQ </a></li>
+                    <li><a href="privacypolicy.html"> Privacy Policy </a></li>
+                    <li><a href="tags.html"> Tags </a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="logo">
+            <img src="Images/Website-Logo-Front.png" alt="Electrozee Logo" height="60px">
+        </div>
+
+
+        <div class="navbar-bottom">
+            <div class="dropdown">
+                <div class="dropdown-btn" onclick="toggleDropdown()">Products</div>
+
+                <!-- Dropdown content (items) -->
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="laptops.html">Laptops</a>
+                    <a href="computer.html">Computers</a>
+                    <a href="mobilephones.html">Mobile Phones</a>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; width: 70%; ">
+
+                <ul style="width: 100%; display: flex; justify-content: space-between; padding: 0 200px 0 100px;">
+                    <li><a href="laptopsreview.html"> Laptops Review </a></li>
+                    <li><a href="computerreview.html"> Computer Review </a></li>
+                    <li><a href="mobilephonereview.html"> Mobile Phone Review </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!---Header-->
+
+    <!-- HomePage -->
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="text-block">
+            <h1> Unlock the World of Electronics </h1>
+            <p>
+                Discover the Latest in:
+            </p>
+            <div>
+                <a href="laptops.html" class="text-block-btn"> Laptops </a>
+                <a href="computer.html" class="text-block-btn"> Computers </a>
+                <a href="mobilephones.html" class="text-block-btn"> Mobile Phones</a>
+            </div>
+            <p>
+                Dive into insightful articles, reviews, and updates on the gadgets shaping our digital lives.
+                Stay informed, stay connected!
+            </p>
+        </div>
+    </div>
+    <!-- Banner -->
+
+    <!-- Popular Article Column  -->
+
+    <div class="row" style="background-color:black; color: white; ">
+        <div class="container">
+            <h1 class="heading"> Popular Posts </h1>
+
+            <div class="col-4" class="text-center">
+                <img class="img-responsive" src="Images/HP Envy Laptop 17-Laptops HomePage.jpg" alt="Envy Laptop"
+                    width="400px">
+                <h3 class="text-center"> <a href="HPEnvyLaptop.html"> <span
+                            style="text-decoration: underline;color: white;"> HP Envy Laptop 17 </span></a> </h3>
+                <p>
+                <ul class="short-text">
+                    <li> Immersive 17.3-inch 4K UHD display for crystal-clear visuals.</li>
+                    <li> Intel® Core™ i7 processor for efficient multitasking and productivity.</li>
+                    <li> Generous 32GB RAM for seamless performance in demanding applications.</li>
+                    <li> Rapid 1TB SSD storage for fast data access and quick boot times.</li>
+                    <li> NVIDIA® GeForce RTX™ 3050 graphics for smooth 4K gaming and content creation.</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="col-4" class="text-center">
+                <img class="img-responsive" src="Images/OMEN 45L Gaming Desktop-Computers HomePage.jpg"
+                    alt="OMEN 45L Gaming Desktop" width="400px">
+                <h3 class="text-center"> <a href="OMEN45LGamingDesktop.html"> <span
+                            style="text-decoration: underline;color: white;"> OMEN 45L Gaming Desktop </span></a> </h3>
+                <p>
+                <ul class="short-text">
+                    <li> Powerful Intel® Core™ i9 processor for exceptional gaming and multitasking.</li>
+                    <li> NVIDIA® GeForce RTX™ 4090 graphics card for stunning visuals and real-time ray tracing.</li>
+                    <li> Ample 16GB RAM for smooth gaming performance.</li>
+                    <li> Windows 11 Home for a cutting-edge gaming and computing experience.</li>
+                    <li> Spacious storage and upgradability options for future-proof gaming.</li>
+                </ul>
+                </p>
+            </div>
+
+            <div class="col-4" class="text-center">
+                <img class="img-responsive" src="Images/15-Mobile_Phones_HomePage.jpg" alt="Iphone 15 Pro Max"
+                    width="300px">
+                <h3 style="text-align: center; padding-right: 100px;"> <a href="iphone15.html"> <span
+                            style="text-decoration: underline;color: white;"> Iphone 15 Pro Max </span></a> </h3>
+                <p>
+                <ul class="short-text">
+                    <li>Cutting-edge A16 Bionic chip for unparalleled performance.</li>
+                    <li> Stunning 6.7-inch Super Retina XDR display with ProMotion technology.</li>
+                    <li> Pro-level photography with a triple-lens camera system and advanced computational photography
+                        features.</li>
+                    <li> Long-lasting battery life with improved efficiency.</li>
+                    <li> 5G connectivity for blazing fast internet speeds and enhanced multimedia experiences.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Article Column  -->
+
+    <!-- Page Ad Banner -->
+
+    <div class="ads-banner">
+        <img src="Images/Website Ad Banner.jpg" alt="Ad Banner" height="150px" width="1150px">
+    </div>
+
+    <!-- Page Ad Banner -->
+
+    <div class="row" style="background-color:black; color: white; text-align: center;">
+        <div class="col-4">
+            <img src="Images/Apple MacBook Air Laptop- HomePage.jpg" alt="Apple MacBook Air Laptop">
+            <h1> Apple MacBook Air </h1>
+            <a href="AppleAirMacBook.html">
+                <h4 class="read-more-btn"> Read More </h4>
+            </a>
+        </div>
+
+        <div class="col-4">
+            <img src="Images/12- Mobile Phones HomePage.jpg" alt="Iphone 12" height="200px">
+            <h1> Iphone 14 </h1>
+            <a href="iphone14.html">
+                <h4 class="read-more-btn"> Read More </h4>
+            </a>
+        </div>
+
+        <div class="col-4">
+            <h1 style="padding-right: 50px; font-family: Bebas Neue"> Catagories </h1>
+            <div class="col-3" style="padding-right: 100px;">
+                <h4 style="margin: 12.5px;"> Laptops </h4>
+                <img src="Images/HP Envy Laptop 17-Laptops HomePage.jpg" alt="Laptop" height="75px">
+                <a href="laptops.html">
+                    <h5 class="catagories-btn"> Read More </h5>
+                </a>
+            </div>
+            <div class="col-3" style="padding-right: 100px;">
+                <h4 style="margin: 10px;"> Computer </h4>
+                <img src="Images/OMEN 45L Gaming Desktop-Computers HomePage.jpg" alt="Computer" height="80px">
+                <a href="computer.html">
+                    <h5 class="catagories-btn"> Read More </h5>
+                </a>
+            </div>
+            <div class="col-3" style="padding-right: 100px;">
+                <h4 style="margin: 10px;"> Mobile </h4>
+                <img src="Images/15-Mobile_Phones_HomePage.jpg" alt="Mobile Phone" height="80px">
+                <a href="mobilephones.html">
+                    <h5 class="catagories-btn"> Read More </h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HomePage -->
+
+
+    <!-- Footer -->
+    <hr>
+    <footer>
+
+        <div class="row">
+
+            <div class="container">
+                <div class="col-3">
+                    <h3> <u> Recent Posts </u> </h3>
+                    <ul class="footer-menu">
+                        <li> <a href="iphone15.html"> <span style="text-decoration: underline;color: white;"> Iphone 15
+                                </span></a> </h3>
+                        </li>
+                        <li> <a href="OMEN45LGamingDesktop.html"> <span
+                                    style="text-decoration: underline;color: white;"> OMEN 45L Gaming Desktop
+                                </span></a>
+                        </li>
+                        <li> <a href="HPZBookFury16G10.html"> <span style="text-decoration: underline ;color: white;">
+                                    HP ZBook Fury 16 G10
+                                </span></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h3> <u> Random Posts </u> </h3>
+                    <ul class="footer-menu">
+                        <li><a href="HPEnvyDesktop.html"> <span style="text-decoration: underline ;color: white;"> HP
+                                    Envy Desktop
+                                </span></a> </li>
+                        <li> <a href="iphone13.html"> <span style="text-decoration: underline ;color: white;"> IPhone 13
+                                </span></a> </li>
+                        <li> <a href="HPEnvyLaptop.html"> <span style="text-decoration: underline ;color: white;"> HP
+                                    Envy Laptop
+                                </span></a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h3> <u> Coming Soon </u> </h3>
+                    <ul class="footer-menu">
+                        <li style="text-decoration: underline ;color: white;"> Samsung s23 ultra </li>
+                        <li style="text-decoration: underline ;color: white;"> Acer Chromebook Spin 714 </li>
+                        <li style="text-decoration: underline ;color: white;"> Dell Inspiron 3020 </li>
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h3> <u> Social Media Links </u> </h3>
+                    <ul class="footer-menu">
+                        <li> <a href="https://www.facebook.com/"> <span
+                                    style="text-decoration: underline ;color: white;"> Facebook
+                                </span></a> </li>
+                        <li> <a href="https://www.instagram.com/"> <span
+                                    style="text-decoration: underline ;color: white;"> Instagram
+                                </span></a> </li>
+                        <li> <a href="https://www.WhatsApp.com/"> <span
+                                    style="text-decoration: underline ;color: white;"> WhatsApp
+                                </span></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- Footer -->
+
+    <div class="copyright">
+        <p>Copyright &copy; 2023 | Electrozee.com </p>
+    </div>
+
+
+</body>
+
+</html>
